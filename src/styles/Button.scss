@@ -2,6 +2,7 @@
 
 @mixin handleColors($color){
     background-color: $color;
+    color: white;
     &:hover{
         background-color: darken($color, 10%);
         box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
@@ -12,55 +13,66 @@
     @include handleColors($blue);
     color: $white;
     border: none;
-    padding: 16px 32px;
+    border-radius: .28571429rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
-    transition-duration: 0.4s;
+    padding: .78571429em 1.5em .78571429em;
     cursor: pointer;
+    user-select: none;
+    min-height: 1em;
+    outline: 0;
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    text-transform: none;
+    text-shadow: none;
+    font-weight: 700;
+    line-height: 1em;
+    font-style: normal;
+    transition-duration: 0.4s;
     &.red{
-        @include handleColors($red)
+        @include handleColors($red);
     }
     &.orange{
-        @include handleColors($orange)
+        @include handleColors($orange);
     }
     &.yellow{
-        @include handleColors($yellow)
+        @include handleColors($yellow);
     }
     &.olive{
-        @include handleColors($olive)
+        @include handleColors($olive);
     }
     &.green{
-        @include handleColors($green)
+        @include handleColors($green);
     }
     &.teal{
-        @include handleColors($teal)
+        @include handleColors($teal);
     }
     &.blue{
-        @include handleColors($blue)
+        @include handleColors($blue);
     }
     &.violet{
-        @include handleColors($violet)
+        @include handleColors($violet);
     }
     &.purple{
-        @include handleColors($purple)
+        @include handleColors($purple);
     }
     &.pink{
-        @include handleColors($pink)
+        @include handleColors($pink);
     }
     &.brown{
-        @include handleColors($brown)
+        @include handleColors($brown);
     }
     &.grey{
-        @include handleColors($grey)
+        @include handleColors($grey);
     }
     &.black{
-        @include handleColors($black)
+        @include handleColors($black);
     }
     &.white{
-        @include handleColors($white)
+        @include handleColors($white);
+        color: black;
     }
     
 }

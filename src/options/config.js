@@ -29,7 +29,7 @@ export const FLAT_COLOR = {
     'brown': '#795548',
     'grey': '#9e9e9e',
     'black': '#222831',
-    'white': '#fcfcfc'
+    'white': '#ecf0f1'
 }
 
 export const THEME = {
