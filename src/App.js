@@ -12,6 +12,45 @@ class App extends Component {
           <Button color='red'>
             Click Me!
           </Button>
+          <Button color='orange'>
+            Click Me!
+          </Button>
+          <Button color='yellow'>
+            Click Me!
+          </Button>
+          <Button color='olive'>
+            Click Me!
+          </Button>
+          <Button color='green'>
+            Click Me!
+          </Button>
+          <Button color='teal'>
+            Click Me!
+          </Button>
+          <Button color='blue'>
+            Click Me!
+          </Button>
+          <Button color='violet'>
+            Click Me!
+          </Button>
+          <Button color='purple'>
+            Click Me!
+          </Button>
+          <Button color='pink'>
+            Click Me!
+          </Button>
+          <Button color='brown'>
+            Click Me!
+          </Button>
+          <Button color='grey'>
+            Click Me!
+          </Button>
+          <Button color='black'>
+            Click Me!
+          </Button>
+          <Button color='white'>
+            Click Me!
+          </Button>
         </div>
       </div>
     );

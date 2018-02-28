@@ -27,7 +27,7 @@ class Button extends Component {
         console.log(this.props)
         const {children} = this.props;
         return(
-            <button className={`ui ${this.props.color} button`} role="button">
+            <button className={`ui ${this.props.color} button`}>
                 { children ? children : null}
             </button>
         )
