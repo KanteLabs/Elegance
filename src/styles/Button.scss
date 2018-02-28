@@ -3,7 +3,8 @@
 @mixin handleColors($color){
     background-color: $color;
     &:hover{
-        background-color: darken($color, 10%)
+        background-color: darken($color, 10%);
+        box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
     }
 }
 
@@ -20,8 +21,46 @@
     transition-duration: 0.4s;
     cursor: pointer;
     &.red{
-        
         @include handleColors($red)
+    }
+    &.orange{
+        @include handleColors($orange)
+    }
+    &.yellow{
+        @include handleColors($yellow)
+    }
+    &.olive{
+        @include handleColors($olive)
+    }
+    &.green{
+        @include handleColors($green)
+    }
+    &.teal{
+        @include handleColors($teal)
+    }
+    &.blue{
+        @include handleColors($blue)
+    }
+    &.violet{
+        @include handleColors($violet)
+    }
+    &.purple{
+        @include handleColors($purple)
+    }
+    &.pink{
+        @include handleColors($pink)
+    }
+    &.brown{
+        @include handleColors($brown)
+    }
+    &.grey{
+        @include handleColors($grey)
+    }
+    &.black{
+        @include handleColors($black)
+    }
+    &.white{
+        @include handleColors($white)
     }
     
 }

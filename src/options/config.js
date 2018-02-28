@@ -18,7 +18,7 @@ export const COLORS = [
 export const FLAT_COLOR = {
     'red': '#f44336',
     'orange': '#F08A5D',
-    'yellow': '#F9ED69',
+    'yellow': '#ffc107',
     'olive': '#1E6262',
     'green': '#4caf50',
     'teal': '#009688',
@@ -33,5 +33,5 @@ export const FLAT_COLOR = {
 }
 
 export const THEME = {
-    
+
 }
