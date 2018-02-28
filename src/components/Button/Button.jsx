@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import classNames from 'classnames';
 import PropTypes from 'prop-types';
 
 import {
@@ -17,10 +18,6 @@ class Button extends Component {
             ...COLORS
         ]),
 
-        fontColor: PropTypes.oneOf([
-            ...COLORS
-        ]),
-
         raised: PropTypes.bool,
         
         size: PropTypes.oneOf([
@@ -30,10 +27,23 @@ class Button extends Component {
     }
     
     render(){
-        console.log(this.props)
-        const {children} = this.props;
+        const {
+            children,
+            color,  
+            raised, 
+            size
+        } = this.props;
+
+        const className = classNames(
+            'ele',
+            'button',
+            color,
+            size,
+            raised ? 'raised' : ''
+        )
+
         return(
-            <button className={`ele button ${this.props.color} ${this.props.size} ${this.props.raised ? 'raised' : ''} `}>
+            <button className={className}>
                 { children ? children : null}
             </button>
         )

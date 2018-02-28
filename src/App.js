@@ -7,9 +7,20 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container buttons">
-          <Button>
-            Button
-          </Button>
+          <div className="row default">
+            <Button>
+              Button
+            </Button>
+            <Button color="red">
+              Button
+            </Button>
+            <Button color="pink">
+              Button
+            </Button>
+            <Button color="orange">
+              Button
+            </Button>
+          </div>
           <div className="row small">
             <Button color='red' size="small">
               Button
