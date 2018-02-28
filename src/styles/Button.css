@@ -185,11 +185,11 @@
     min-width: 80px;
     width: 100%; }
   .ele.button.raised {
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; }
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.12) 0px 2px 4px; }
     .ele.button.raised:active {
       position: relative;
       top: 4px; }
     .ele.button.raised:hover {
-      box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px, rgba(0, 0, 0, 0.12) 0px 1px 4px; }
+      box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.12) 0px 2px 4px; }
 
 /*# sourceMappingURL=Button.css.map */

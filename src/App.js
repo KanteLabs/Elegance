@@ -14,12 +14,6 @@ class App extends Component {
             <Button color="red">
               Button
             </Button>
-            <Button color="pink">
-              Button
-            </Button>
-            <Button color="orange">
-              Button
-            </Button>
           </div>
           <div className="ele row equal small">
             <Button color='red' size="small">
@@ -58,7 +52,7 @@ class App extends Component {
             </Button>
           </div>
           <div className="ele row equal wide">
-            <Button color='bele row equaln' size="wide">
+            <Button color='brown' size="wide">
               Button
             </Button>
             <Button color='grey' size="wide">
