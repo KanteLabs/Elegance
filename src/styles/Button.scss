@@ -1,4 +1,4 @@
-@import './colors';
+@import './variables';
 
 @mixin handleButton($color){
     background-color: $color;
@@ -91,23 +91,33 @@
         color: black;
     }
     &.small{
-        font-size: 14px;
-        line-height: 30px;
-        padding: 0 8px;
+        font-size: $button-font-size;
+        line-height: $button-line-height;
+        padding: $button-padding;
     }
     &.medium{
-
+        font-size: $button-font-size + 2;
+        line-height: $button-line-height + 10;
+        padding: 0 12px;
     }
     &.large{
-
+        font-size: $button-font-size;
+        line-height: $button-line-height;
+        padding: $button-padding;
     }
     &.wide{
-
+        font-size: $button-font-size;
+        line-height: $button-line-height;
+        padding: $button-padding;
     }
     &.extra-wide{
-
+        font-size: $button-font-size;
+        line-height: $button-line-height;
+        padding: $button-padding;
     }
     &.full-width{
-        
+        font-size: $button-font-size;
+        line-height: $button-line-height;
+        padding: $button-padding;
     }
 }

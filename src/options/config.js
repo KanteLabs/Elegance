@@ -32,6 +32,11 @@ export const FLAT_COLOR = {
     'white': '#ecf0f1'
 }
 
-export const THEME = {
-
-}
+export const BUTTON_SIZES = [
+    'small',
+    'medium',
+    'large',
+    'wide',
+    'extra-wide',
+    'full-width'
+]

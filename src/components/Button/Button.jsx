@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import {
-    COLORS
+    COLORS,
+    BUTTON_SIZES
 } from '../../options'
 
 class Button extends Component {
@@ -20,13 +21,16 @@ class Button extends Component {
             ...COLORS
         ]),
         
+        size: PropTypes.oneOf([
+            ...BUTTON_SIZES
+        ]),
     }
     
     render(){
         console.log(this.props)
         const {children} = this.props;
         return(
-            <button className={`ui ${this.props.color} button`}>
+            <button className={`ui button ${this.props.color} ${this.props.size}`}>
                 { children ? children : null}
             </button>
         )

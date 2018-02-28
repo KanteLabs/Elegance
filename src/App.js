@@ -10,7 +10,7 @@ class App extends Component {
           <Button>
             Click Me!
           </Button>
-          <Button color='red'>
+          <Button color='red' size="small">
             Click Me!
           </Button>
           <Button color='orange'>
