@@ -9,6 +9,9 @@ import {
 class Button extends Component {
     static propTypes = {
         
+        // Children could be a string or an element
+        children:  PropTypes.node,
+
         // A button can have various colors
         color: PropTypes.oneOf([
             ...COLORS,
@@ -24,15 +27,14 @@ class Button extends Component {
     
     render(){
         console.log(this.props)
+        const {children} = this.props;
         const style = {
-            background: this.convertColor(),
-            width: '100px',
-            height: '100px'
+            background: this.convertColor()
         }
         return(
-            <div style={style}>
-
-            </div>
+            <button style={style}>
+                { children ? children : null}
+            </button>
         )
     }
 }

@@ -31,3 +31,7 @@ export const FLAT_COLOR = {
     'black': '#222831',
     'white': '#fcfcfc'
 }
+
+export const THEME = {
+    
+}
