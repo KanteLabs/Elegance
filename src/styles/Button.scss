@@ -101,23 +101,23 @@
         padding: 0 12px;
     }
     &.large{
-        font-size: $button-font-size;
-        line-height: $button-line-height;
-        padding: $button-padding;
+        font-size: $button-font-size + 4;
+        line-height: $button-line-height + 20;
+        padding: 0 16px;
     }
     &.wide{
-        font-size: $button-font-size;
-        line-height: $button-line-height;
-        padding: $button-padding;
+        font-size: $button-font-size + 2;
+        line-height: $button-line-height + 10;
+        padding: 0 36px;
     }
     &.extra-wide{
-        font-size: $button-font-size;
-        line-height: $button-line-height;
-        padding: $button-padding;
+        font-size: $button-font-size + 2;
+        line-height: $button-line-height + 10;
+        padding: 0 72px;
     }
     &.full-width{
-        font-size: $button-font-size;
-        line-height: $button-line-height;
+        font-size: $button-font-size + 2;
+        line-height: $button-line-height + 10;
         padding: $button-padding;
     }
 }

@@ -7,13 +7,25 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container buttons">
+          <div className="row small">
+          </div>
+          <div className="row medium">
+          </div>
+          <div className="row large">
+          </div>
+          <div className="row wide">
+          </div>
+          <div className="row extra-wide">
+          </div>
+          <div className="row full-width">
+          </div>
           <Button>
             Click Me!
           </Button>
           <Button color='red' size="small">
             Click Me!
           </Button>
-          <Button color='orange'>
+          <Button color='orange' size="medium">
             Click Me!
           </Button>
           <Button color='yellow'>
