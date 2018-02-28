@@ -90,5 +90,24 @@
         @include handleButton($white);
         color: black;
     }
-    
+    &.small{
+        font-size: 14px;
+        line-height: 30px;
+        padding: 0 8px;
+    }
+    &.medium{
+
+    }
+    &.large{
+
+    }
+    &.wide{
+
+    }
+    &.extra-wide{
+
+    }
+    &.full-width{
+        
+    }
 }
