@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 import './Button.css'
 
 import {
-    COLORS,
-    FLAT_COLOR
+    COLORS
 } from '../../options'
 
 class Button extends Component {
@@ -24,19 +23,11 @@ class Button extends Component {
         
     }
     
-    convertColor = () => {
-        const { color } = this.props;
-        return FLAT_COLOR[color];
-    }
-    
     render(){
         console.log(this.props)
         const {children} = this.props;
-        const style = {
-            background: this.convertColor()
-        }
         return(
-            <button className={`ui ${this.props.color} button`} role="button" style={style}>
+            <button className={`ui ${this.props.color} button`} role="button">
                 { children ? children : null}
             </button>
         )
