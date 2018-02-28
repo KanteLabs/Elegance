@@ -1,13 +1,13 @@
 @import './variables';
 @import './mixins';
 @font-face {
-    font-family: 'Montserrat', Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-    src: url('/fonts/Montserrat') format('truetype');
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    src: url('/fonts/Lato') format('truetype');
 }
 .ele.button{
     @include handleButton($blue);
     // @include font-face;
-    font-family: 'Montserrat';
+    font-family: 'Lato';
     color: $white;
     border: none;
     border-radius: 2px;
@@ -27,6 +27,7 @@
     line-height: 1em;
     font-style: normal;
     transition-duration: 0.4s;
+    letter-spacing: 0.01rem;
     &.red{
         @include handleButton($red);
     }
