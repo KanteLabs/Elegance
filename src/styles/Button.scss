@@ -1,16 +1,32 @@
 @import './colors';
 
-@mixin handleColors($color){
+@mixin handleButton($color){
     background-color: $color;
     color: white;
-    &:hover{
+    &:hover, &:focus{
         background-color: darken($color, 10%);
+        box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+    }
+    &:active{
+        background-color: darken($color, 20%);
+        box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+    }
+}
+@mixin handleButtonBlack($color){
+    background-color: $color;
+    color: white;
+    &:hover, &:focus{
+        background-color: lighten($color, 5%);
+        box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
+    }
+    &:active{
+        background-color: lighten($color, 10%);
         box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
     }
 }
 
 .ui.button{
-    @include handleColors($blue);
+    @include handleButton($blue);
     color: $white;
     border: none;
     border-radius: .28571429rem;
@@ -32,46 +48,46 @@
     font-style: normal;
     transition-duration: 0.4s;
     &.red{
-        @include handleColors($red);
+        @include handleButton($red);
     }
     &.orange{
-        @include handleColors($orange);
+        @include handleButton($orange);
     }
     &.yellow{
-        @include handleColors($yellow);
+        @include handleButton($yellow);
     }
     &.olive{
-        @include handleColors($olive);
+        @include handleButton($olive);
     }
     &.green{
-        @include handleColors($green);
+        @include handleButton($green);
     }
     &.teal{
-        @include handleColors($teal);
+        @include handleButton($teal);
     }
     &.blue{
-        @include handleColors($blue);
+        @include handleButton($blue);
     }
     &.violet{
-        @include handleColors($violet);
+        @include handleButton($violet);
     }
     &.purple{
-        @include handleColors($purple);
+        @include handleButton($purple);
     }
     &.pink{
-        @include handleColors($pink);
+        @include handleButton($pink);
     }
     &.brown{
-        @include handleColors($brown);
+        @include handleButton($brown);
     }
     &.grey{
-        @include handleColors($grey);
+        @include handleButton($grey);
     }
     &.black{
-        @include handleColors($black);
+        @include handleButtonBlack($black);
     }
     &.white{
-        @include handleColors($white);
+        @include handleButton($white);
         color: black;
     }
     
