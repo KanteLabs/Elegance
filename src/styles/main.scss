@@ -1,1 +1,16 @@
 @import './reset.css';
+@import './Button.scss';
+
+.ele{
+    &.container{
+        padding: 0 5vw;
+    }
+    &.row{
+        &.equal{
+            display: flex;
+            button{
+                width: 100%;
+            }
+        }
+    }
+}
