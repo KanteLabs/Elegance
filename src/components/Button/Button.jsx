@@ -20,17 +20,20 @@ class Button extends Component {
         fontColor: PropTypes.oneOf([
             ...COLORS
         ]),
+
+        raised: PropTypes.bool,
         
         size: PropTypes.oneOf([
             ...BUTTON_SIZES
         ]),
+
     }
     
     render(){
         console.log(this.props)
         const {children} = this.props;
         return(
-            <button className={`ui button ${this.props.color} ${this.props.size}`}>
+            <button className={`ele button ${this.props.color} ${this.props.size} ${this.props.raised ? 'raised' : ''} `}>
                 { children ? children : null}
             </button>
         )

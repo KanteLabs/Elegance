@@ -63,7 +63,7 @@ class App extends Component {
             </Button>
           </div>
           <div className="row full-width">
-            <Button color='white' size="full-width">
+            <Button color='white' size="full-width" raised>
               Button
             </Button>
           </div>
