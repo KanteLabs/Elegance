@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import './Button.css'
 
 import {
     COLORS,
@@ -14,8 +15,11 @@ class Button extends Component {
 
         // A button can have various colors
         color: PropTypes.oneOf([
-            ...COLORS,
-            'red'
+            ...COLORS
+        ]),
+
+        fontColor: PropTypes.oneOf([
+            ...COLORS
         ]),
         
     }
@@ -32,11 +36,16 @@ class Button extends Component {
             background: this.convertColor()
         }
         return(
-            <button style={style}>
+            <button className={`ui ${this.props.color} button`} role="button" style={style}>
                 { children ? children : null}
             </button>
         )
     }
 }
+
+Button.defaultProps = {
+    color: 'blue',
+    fontColor: 'white'
+};
 
 export default Button;

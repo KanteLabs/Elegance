@@ -5,8 +5,14 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Button color='red'>
-        </Button>
+        <div className="container buttons">
+          <Button>
+            Click Me!
+          </Button>
+          <Button color='red'>
+            Click Me!
+          </Button>
+        </div>
       </div>
     );
   }
