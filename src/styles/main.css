@@ -199,7 +199,6 @@
   display: flex; }
   .ele.row.equal button {
     width: 100%;
-    flex: 1;
-    text-align: center; }
+    flex: 1; }
 
 /*# sourceMappingURL=main.css.map */
