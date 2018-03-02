@@ -25,14 +25,15 @@ class Header extends Component {
 
         const className = classNames(
             'ele',
-            'header',
-            size
+            'header'
         )
 
+        const HeaderSize = size.toLowerCase();
+
         return(
-            <Header className={className}>
+            <HeaderSize className={className}>
                 { children ? children : null}
-            </Header>
+            </HeaderSize>
         )
     }
 }
