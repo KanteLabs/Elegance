@@ -215,10 +215,5 @@ h6.ele.header {
 
 .ele.container {
   padding: 0 5vw; }
-.ele.row.equal {
-  display: flex; }
-  .ele.row.equal button {
-    width: 100%;
-    flex: 1; }
 
 /*# sourceMappingURL=main.css.map */

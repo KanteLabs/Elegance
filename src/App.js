@@ -17,6 +17,7 @@ class App extends Component {
               Button
             </Button>
           </div>
+          <Header size="h1">Small Buttons</Header>
           <div className="ele row equal small">
             <Button color='red' size="small">
               Button
@@ -31,6 +32,7 @@ class App extends Component {
               Button
             </Button>
           </div>
+          <Header size="h1">Medium Buttons</Header>
           <div className="ele row equal medium">
             <Button color='green' size="medium">
               Button
@@ -45,6 +47,7 @@ class App extends Component {
               Button
             </Button>
           </div>
+          <Header size="h1">Large Buttons</Header>
           <div className="ele row equal large">
             <Button color='purple' size="large">
               Button
@@ -53,6 +56,7 @@ class App extends Component {
               Button
             </Button>
           </div>
+          <Header size="h1">Wide Buttons</Header>
           <div className="ele row equal wide">
             <Button color='brown' size="wide">
               Button
@@ -61,6 +65,7 @@ class App extends Component {
               Button
             </Button>
           </div>
+          <Header size="h1">Extra Wide Buttons</Header>
           <div className="ele row equal extra-wide">
             <Button color='black' size="extra-wide">
               Button
@@ -69,6 +74,7 @@ class App extends Component {
               Button
             </Button>
           </div>
+          <Header size="h1">Full-Width & Raised Buttons</Header>
           <div className="ele row equal full-width">
             <Button color='white' size="full-width" raised>
               Button
