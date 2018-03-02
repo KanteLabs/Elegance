@@ -13,9 +13,6 @@ h4.ele.header {
 h5.ele.header {
   font-size: 1rem; }
 
-h6.ele.header {
-  font-size: 0.9rem; }
-
 .ele.header {
   font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
   src: url("/fonts/Lato") format("truetype"); }

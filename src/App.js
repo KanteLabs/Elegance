@@ -81,6 +81,13 @@ class App extends Component {
             </Button>
           </div>
         </div>
+        <div className="ele container">
+          <Header size="h1">Header H1</Header>
+          <Header size="h2">Header H2</Header>
+          <Header size="h3">Header H3</Header>
+          <Header size="h4">Header H4</Header>
+          <Header size="h5">Header H5</Header>
+        </div>
       </div>
     );
   }
