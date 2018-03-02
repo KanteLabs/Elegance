@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Button from './components/Button';
+import Header from './components/Header';
 import './styles/main.css';
 
 class App extends Component {
@@ -7,6 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <div className="ele container">
+          <Header size="h1">Default Buttons</Header>
           <div className="ele row equal default">
             <Button>
               Button
