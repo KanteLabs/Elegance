@@ -1,13 +1,9 @@
 @import './variables';
 @import './mixins';
-@font-face {
-    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-    src: url('/fonts/Lato') format('truetype');
-}
+
 .ele.button{
     @include handleButton($blue);
-    // @include font-face;
-    font-family: 'Lato';
+    @include font-face;
     color: $white;
     border: none;
     border-radius: 2px;

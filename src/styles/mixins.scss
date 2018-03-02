@@ -22,3 +22,8 @@
         box-shadow: 0 0 0 1px transparent inset,0 0 0 0 rgba(34,36,38,.15) inset;
     }
 }
+
+@mixin font-face {
+    font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+    src: url('/fonts/Lato') format('truetype');
+}

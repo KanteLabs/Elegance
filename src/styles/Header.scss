@@ -1,0 +1,29 @@
+@import './mixins';
+
+h1.ele.header {
+    font-size: 2rem
+}
+
+h2.ele.header {
+    font-size: 1.71428571rem
+}
+
+h3.ele.header {
+    font-size: 1.28571429rem
+}
+
+h4.ele.header {
+    font-size: 1.07142857rem
+}
+
+h5.ele.header {
+    font-size: 1rem
+}
+
+h6.ele.header {
+    font-size: 0.9rem
+}
+
+.ele.header{
+    @include font-face;
+}

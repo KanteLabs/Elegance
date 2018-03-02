@@ -1,11 +1,9 @@
 @import url(./reset.css);
-@font-face {
-  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
-  src: url("/fonts/Lato") format("truetype"); }
 .ele.button {
   background-color: #2196f3;
   color: white;
-  font-family: 'Lato';
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  src: url("/fonts/Lato") format("truetype");
   color: #ecf0f1;
   border: none;
   border-radius: 2px;
@@ -192,6 +190,28 @@
       top: 4px; }
     .ele.button.raised:hover {
       box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 6px, rgba(0, 0, 0, 0.12) 0px 2px 4px; }
+
+h1.ele.header {
+  font-size: 2rem; }
+
+h2.ele.header {
+  font-size: 1.71429rem; }
+
+h3.ele.header {
+  font-size: 1.28571rem; }
+
+h4.ele.header {
+  font-size: 1.07143rem; }
+
+h5.ele.header {
+  font-size: 1rem; }
+
+h6.ele.header {
+  font-size: 0.9rem; }
+
+.ele.header {
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  src: url("/fonts/Lato") format("truetype"); }
 
 .ele.container {
   padding: 0 5vw; }

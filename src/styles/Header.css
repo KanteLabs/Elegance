@@ -1,0 +1,23 @@
+h1.ele.header {
+  font-size: 2rem; }
+
+h2.ele.header {
+  font-size: 1.71429rem; }
+
+h3.ele.header {
+  font-size: 1.28571rem; }
+
+h4.ele.header {
+  font-size: 1.07143rem; }
+
+h5.ele.header {
+  font-size: 1rem; }
+
+h6.ele.header {
+  font-size: 0.9rem; }
+
+.ele.header {
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  src: url("/fonts/Lato") format("truetype"); }
+
+/*# sourceMappingURL=Header.css.map */
